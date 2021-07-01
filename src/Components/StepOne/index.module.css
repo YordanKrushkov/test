@@ -1,0 +1,70 @@
+.stepOneContainer {
+    background-color: #dedede;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.stepOneContainer header {
+    background-color: #f8bc03;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.stepOneContainer header:hover {
+    cursor: pointer;
+}
+h5 {
+    color: red;
+    margin: 5px 0;
+}
+.stepOneContainer h2 {
+    color: white;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 10px;
+    margin: 0;
+    font-size: 16px;
+    /* -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black; */
+    text-shadow: 1px 1px black;
+}
+.stepOneContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.stepOneContainer form div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.stepOneContainer form div div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.stepOneContainer input {
+    border-radius: 10px;
+    padding: 0 5px;
+    height: 30px;
+    margin: 5px 20px;
+    outline: none;
+    /* box-shadow: inset 0px 0px 6px 2px rgb(0, 0, 0, 0.2);
+     */
+    box-shadow: inset 0px 0px 5px 0.8px rgb(0, 0, 0, 0.8);
+    border: none;
+}
+
+.stepOneContainer button {
+    background-color: #494fae;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    border: none;
+    align-self: flex-end;
+    margin: 0 20px 10px;
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0, 0.2);
+}

@@ -1,0 +1,82 @@
+.stepTwoContainer {
+    background-color: #dedede;
+    border-radius: 5px;
+}
+.stepTwoContainer header {
+    background-color: #f8bc03;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.stepTwoContainer header:hover {
+    cursor: pointer;
+}
+
+.stepTwoContainer h2 {
+    color: white;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 10px;
+    margin: 0;
+    font-size: 16px;
+    /* -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black; */
+    text-shadow: 1px 1px black;
+}
+.stepTwoContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.stepTwoContainer form div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.stepTwoContainer form div div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.stepTwoContainer input,
+.stepTwoContainer select {
+    border-radius: 10px;
+    padding: 0 5px;
+    height: 30px;
+    margin: 5px 20px;
+    outline: none;
+    box-shadow: inset 0px 0px 5px 0.8px rgb(0, 0, 0, 0.8);
+    border: none;
+}
+.stepTwoContainer select,
+option {
+    height: 30.5px;
+    box-shadow: inset 0px 0px 5px 0.8px rgb(0, 0, 0, 0.8);
+    border: none;
+}
+.stepTwoContainer button {
+    background-color: #494fae;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    border: none;
+    align-self: flex-end;
+    margin: 0 20px 10px;
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0, 0.2);
+}
+.dob {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    width: 200px !important;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.dob input {
+    width: 25px;
+    margin: 5px 10px;
+}
